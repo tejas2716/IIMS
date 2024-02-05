@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>CREATOR-TEJAS SATHE</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <!--Stylesheet-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 25%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(8, 7, 7, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #0a0a0a;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+form h3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #0e0d0d;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #3a3838;
+    color: #fcfcfd;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(10, 10, 10, 0.27);
+  color: #0a0a0a;
+  text-align: center;
+  
+}
+.social div:hover{
+  background-color: rgba(10, 10, 10, 0.47);
+ 
+}
+.social .fb{
+  margin-left: 25px;
+  
+}
+.social i{
+  margin-right: 4px;
+}
+
+.box1{
+    text-align: center;
+    height: 775px;
+    background-color: rgba(253, 255, 255, 0.13);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 40px rgba(7, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: white;
+
+}
+/* .box1 div:hover{
+    background-color: rgba(255,255,255,0.47);
+  } */
+
+  .box2{
+    text-align: center;
+    width: 850px;
+    height: 700px;
+    background-color: rgba(143, 148, 148, 0.13);
+    margin-top: -590px;
+    margin-bottom: 300px;
+    margin-left: 600px;
+    box-shadow: 0 0 40px rgba(7, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: white;
+  }
+  .image1{
+    width: 800px;
+    margin-top: 15px;
+    margin-left: 2px;
+    
+  }
+  .Text1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 4%;
+
+  }
+  .Text2{
+    text-align: center;
+    width: 280;
+    border-radius: 3px;
+    border: #0a0a0a;
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-right: 6%;
+    margin-left: 6%;
+
+
+  }
+  .page2{
+    width: 100%;
+    height: 500px;
+    margin-top: 800px;
+    margin-left: 478px;
+    background-color: #423d3d;
+    color: white;
+   
+  }
+  .form2title{
+    color: rgb(253, 253, 251);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  .tutorialP1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    line-height: 60px;
+    font-size: 25px;
+  }
+  .Tutorial1A{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-left: 150px;  
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  .Tutorial2A{
+    color: white;
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .tutorialP2{
+    color: white;
+    margin-top: -290px;
+    margin-left: 770px;
+    line-height: 60px;
+    font-size: 25px;
+  }
+  .Tutorial1B{
+    color: white;
+    margin-left: 770px; 
+    text-decoration: none; 
+    font-size: 18px;
+  }
+
+  .ExampleP3{
+    color: white;
+    margin-top: -278px;
+    margin-left: 1400px;
+    line-height: 60px;
+    font-size: 25px;
+  }
+  .Example1{
+    color: white;
+    margin-left: 1400px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .topnav{
+    width: 100%;
+    height: 48px;
+    
+  }
+
+
+.topnav {
+  text-align: center;
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color:#333;
+  color: white;
+}
+#ABC{
+  margin-top: 60px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="https://iims.ac.in/">Home</a>
+        <a href="https://iims.ac.in/admission-MHCET-result">Admission</a>
+        <a href="https://iims.ac.in/contact-us">Contact</a>
+        <a href="https://iims.ac.in/about-IIMS-MBA">About</a>
+    </div>
+    <div class="box1">
+      
+    </div>
+
+
+    <form id="ABC">
+        <h3>Login</h3>
+
+        <label for="username">UserName</label>
+        <input type="email" placeholder="Email" id="username">
+
+        <label for="contact no">password</label>
+        <input type="password" placeholder="password" id="password">
+
+        <button onclick="func()">
+          Log In</button>
+        <div class="social">
+          <a href="https://www.instagram.com/iimscollege/?hl=en"><div class="go"><i class="fab fa-instagram"></i> Instagram</div></a>
+          <a href="https://www.facebook.com/IIMSOfficial/"><div class="fb"><i class="fab fa-facebook"></i>  Facebook</div></a>
+        </div>
+    <div class="box2">
+       
+       <img class="image1"  src="C:\Users\DELL\Downloads\IIMS.jpeg "  width="200" height="350px" >
+       
+    
+       <div class="Text1"> IIMS College  </div> 
+       <div class="Text2">
+        Indian Institute of Management (IIM) is a prestigious institute that offers various certificate courses to both students and professionals. 
+        With the advancement of technology, these courses are now available online. Enrolling in IIM certificate courses online has numerous benefits 
+        that can help you enhance your career prospects
+       </div> 
+    </div>
+    </form>
+    <form class="page2">
+      <h1 class="form2title">CATEGORY OF REFERENCE</h1>
+      <p class="tutorialP1">FRONTEND TUTORIALS</p>
+      <a class="Tutorial1A" href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a><br></br>
+      <a class="Tutorial2A" href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a><br></br>
+      <a class="Tutorial1A" href="https://www.w3schools.com/js/default.asp">JAVA SCRIPT Tutorial</a><br></br>
+      <a class="Tutorial1A" href="https://www.w3schools.com/react/default.asp">REACT Tutorial</a><br></br>
+      <a class="Tutorial1A" href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP Tutorial</a><br></br>
+
+      <p class="tutorialP2">BACKEND TUTORIALS</p>
+      <a class="Tutorial1B" href="https://www.w3schools.com/java/default.asp">JAVA Tutorial</a><br></br>
+      <a class="Tutorial1B" href="https://www.w3schools.com/python/default.asp">PYTHON Tutorial</a><br></br>
+      <a class="Tutorial1B" href="https://www.w3schools.com/php/default.asp">PHP Tutorial</a><br></br>
+      <a class="Tutorial1B" href="https://www.w3schools.com/cpp/default.asp">C++ Tutorial</a><br></br>
+      <a class="Tutorial1B" href="https://www.w3schools.com/mysql/default.asp">MYSQL Tutorial</a><br></br>
+      
+      <p class="ExampleP3">EXAMPLES</p>
+      <a class="Example1" href="https://blog.sentry.io/exception-handling-in-java-with-real-examples/">EXCEPTION Handling </a><br></br>
+      <a class="Example1" href="https://www.csun.edu/science/help/help_docs/html_tags.html">HTML Tags </a><br></br>
+      <a class="Example1" href="https://www.digitalocean.com/community/tutorials/oops-concepts-java-example">OOPS Concept </a><br></br>
+      <a class="Example1" href="https://www.javatpoint.com/collections-in-java">COLLECTION & Framework</a><br></br>
+      <a class="Example1" href="https://www.jju.edu.et/docs/javanotes/jdbc-thoery.pdf">JDBC </a><br></br>
+
+    </form>
+
+<script>
+   function func(){
+
+   var email  = document.getElementById("username").value;
+   var pass = document.getElementById('password').value;
+    if (email == 'sathetejas111@gmail.com' && pass == '123456'){
+      alert("login succecfull...!") 
+      location.assign("https://www.w3schools.com");
+   
+    }
+   
+   else {
+    alert(" please enter valid values.....! ")
+   }
+  }
+</script>
+</body>
+</html>
